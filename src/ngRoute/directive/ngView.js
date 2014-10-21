@@ -33,8 +33,7 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
  *
  *                  - If the attribute is not set, disable scrolling.
  *                  - If the attribute is set without value, enable scrolling.
- *                  - Otherwise enable scrolling only if the `autoscroll` attribute value evaluated
- *                    as an expression yields a truthy value.
+ *                  - Otherwise enable scrolling only if the `autoscroll` attribute value evaluated as an expression yields a truthy value.
  * @example
     <example name="ngView-directive" module="ngViewExample"
              deps="angular-route.js;angular-animate.js"
